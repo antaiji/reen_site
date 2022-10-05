@@ -1,0 +1,14 @@
+.proposition {
+    padding: 12rem 0;
+    text-align: center;
+
+    &__heading {
+        margin-bottom: 2rem;
+    }
+    
+    &__text {
+        font-size: 2.2rem;
+        color: $color-slate-200;
+        margin-bottom: 10rem;
+    }
+}

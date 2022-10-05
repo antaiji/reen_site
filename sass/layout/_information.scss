@@ -1,0 +1,93 @@
+#information {
+    padding: 7rem 0;
+    background-color: $color-slate-700;
+}
+
+.information {
+    display: flex;
+
+    &__who,
+    &__works,
+    &__touch,
+    &__updates {
+        flex: 1;
+        padding: 0 1rem;
+    }
+
+    &__heading {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        color: $color-main-100;
+        letter-spacing: 1px;
+        font-weight: 700;
+        padding-bottom: 2rem;
+    }
+
+    &__text {
+        color: $color-slate-100;
+        font-size: 1.6rem;
+        padding-bottom: 2rem;
+
+        &--link {
+            color: $color-slate-100;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        &--link i {
+            padding-left: 1rem;
+            font-size: 2.4rem;
+        }
+
+        &-1 {
+            color: $color-slate-100;
+        }
+    }
+
+    &__img {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    &__input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input input{
+        width: 100%;
+        color: $color-slate-100;
+        background-color: rgba($color-main-100, .1);
+        padding: 1.2rem;
+        border: none;
+        border-radius: 6px;
+        outline: none;
+    }
+
+    ::placeholder {
+        color: $color-slate-100;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.6rem;
+    }
+
+    &__subscribe {
+        align-self: flex-end;
+        font-size: 1.6rem;
+        padding: .8rem 2rem;
+        margin-top: 2rem;
+    }
+
+    &__thumbs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    &__thumb {
+        width: auto;
+        height: 8rem;
+        background: url(/img/w1.jpg) center center/cover no-repeat;
+    }
+}

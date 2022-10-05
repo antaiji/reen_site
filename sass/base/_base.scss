@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;   // 1rem = 10px, 
+}
+/*
+body {
+    width: 100%;
+    
+    overflow-x: hidden;
+    
+}
+*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1.5rem;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: $color-slate-200;
+}
